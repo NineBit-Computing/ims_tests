@@ -1,3 +1,7 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "editor.formatOnSave": true,
+  "[gherkin]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete",
+    "editor.formatOnSave": true
+  }
 }
