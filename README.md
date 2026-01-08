@@ -1,2 +1,2 @@
 # ims_tests
-Test suite based on Karate and Gharkin
+Test suite based on Karate and Gherkin
