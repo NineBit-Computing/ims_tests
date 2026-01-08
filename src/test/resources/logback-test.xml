@@ -1,0 +1,16 @@
+<configuration>
+
+    <logger name="org.thymeleaf" level="WARN"/>
+    <logger name="com.intuit.karate" level="INFO"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+</configuration>
